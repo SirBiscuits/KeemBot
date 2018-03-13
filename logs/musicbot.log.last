@@ -1,0 +1,244 @@
+[54.005861282] 2018-03-12 21:20:54,948 - INFO - launcher: Starting sanity checks
+[54.506540298] 2018-03-12 21:20:54,949 - INFO - launcher: Checking for Python 3.5+
+[54.506540298] 2018-03-12 21:20:54,949 - INFO - launcher: Checking console encoding
+[55.006027222] 2018-03-12 21:20:54,949 - INFO - launcher: Setting console encoding to UTF-8
+[55.506467819] 2018-03-12 21:20:54,950 - INFO - launcher: Ensuring we're in the right environment
+[57.506322861] 2018-03-12 21:20:54,952 - INFO - launcher: Adding local bins/ folder to path
+[58.506488800] 2018-03-12 21:20:54,953 - INFO - launcher: Required checks passed.
+[59.006690979] 2018-03-12 21:20:54,953 - INFO - launcher: Optional checks passed.
+[59.507131577] 2018-03-12 21:20:54,954 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.7113361358642578] 2018-03-12 21:20:57,606 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 213 in _setup_logging: Set logging level to INFO
+[2.7113361358642578] 2018-03-12 21:20:57,606 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 80 in __init__: =========== MusicBot (version 1.9.6_2) ===========
+[2.7128367424011230] 2018-03-12 21:20:57,607 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[2.715336561] launcher-INFO: Connecting
+[5.6907143592834473] 2018-03-12 21:21:00,585 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 1011 in on_ready: Connection established, ready to go.
+[5.6912145614624023] 2018-03-12 21:21:00,586 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 324 in _cache_app_info: Caching app info
+[5.8122303485870361] 2018-03-12 21:21:00,707 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[5.8202309608459473] 2018-03-12 21:21:00,715 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 844 in _scheck_server_permissions: Checking server permissions
+[5.8207311630249023] 2018-03-12 21:21:00,715 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[5.8207311630249023] 2018-03-12 21:21:00,715 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 852 in _scheck_configs: Validating config
+[5.8207311630249023] 2018-03-12 21:21:00,715 - DEBUG - musicbot.config | In config.py::MainThread(14084), line 155 in async_validate: Validating options...
+[5.8207311630249023] 2018-03-12 21:21:00,715 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 855 in _scheck_configs: Validating permissions config
+[5.8212311267852783] 2018-03-12 21:21:00,716 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14084), line 59 in async_validate: Validating permissions...
+[5.8212311267852783] 2018-03-12 21:21:00,716 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1022 in on_ready: Connected to Discord!
+[5.8222308158874512] 2018-03-12 21:21:00,717 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1032 in on_ready: Bot:   235882065927733249/KILLER BOTSTAR#0148 [BOT]
+[5.8227310180664062] 2018-03-12 21:21:00,717 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1040 in on_ready: Owner: 97053585245745152/Mat#2971
+
+[5.8227310180664062] 2018-03-12 21:21:00,717 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1043 in on_ready: Server List:
+[5.8232309818267822] 2018-03-12 21:21:00,718 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1044 in <listcomp>:  - SEXY FARMERS
+[5.8237318992614746] 2018-03-12 21:21:00,718 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1075 in on_ready: Bound to text channels:
+[5.8242313861846924] 2018-03-12 21:21:00,719 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1076 in <listcomp>:  - SEXY FARMERS/bot-spam
+[5.8247313499450684] 2018-03-12 21:21:00,719 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1114 in on_ready: Not autojoining any voice channels
+[5.8257312774658203] 2018-03-12 21:21:00,720 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1118 in on_ready: Options:
+[5.8262312412261963] 2018-03-12 21:21:00,721 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1120 in on_ready:   Command prefix: !
+[5.8267312049865723] 2018-03-12 21:21:00,721 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1121 in on_ready:   Default volume: 100%
+[5.8272318840026855] 2018-03-12 21:21:00,722 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1123 in on_ready:   Skip threshold: 5 votes or 100%
+[5.8272318840026855] 2018-03-12 21:21:00,722 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1124 in on_ready:   Now Playing @mentions: Enabled
+[5.8282315731048584] 2018-03-12 21:21:00,723 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1125 in on_ready:   Auto-Summon: Enabled
+[5.8287322521209717] 2018-03-12 21:21:00,723 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1126 in on_ready:   Auto-Playlist: Disabled
+[5.8292317390441895] 2018-03-12 21:21:00,724 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1127 in on_ready:   Auto-Pause: Enabled
+[5.8332371711730957] 2018-03-12 21:21:00,728 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1128 in on_ready:   Delete Messages: Enabled
+[5.8337323665618896] 2018-03-12 21:21:00,728 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1130 in on_ready:     Delete Invoking: Disabled
+[5.8342320919036865] 2018-03-12 21:21:00,729 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1131 in on_ready:   Debug Mode: Disabled
+[5.8352327346801758] 2018-03-12 21:21:00,730 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 1132 in on_ready:   Downloaded songs will be saved
+[5.8372328281402588] 2018-03-12 21:21:00,732 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 252 in _join_startup_channels: Found resumable voice channel SEXY FARMERS/Civ 5
+[5.8377330303192139] 2018-03-12 21:21:00,732 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 258 in _join_startup_channels: Found owner in "Civ 5"
+[5.8382329940795898] 2018-03-12 21:21:00,733 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 267 in _join_startup_channels: Attempting to join SEXY FARMERS/Civ 5
+[5.8397352695465088] 2018-03-12 21:21:00,734 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 437 in get_voice_client: Connection attempt 1 to Civ 5
+[5.8397352695465088] 2018-03-12 21:21:00,734 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[5.8402328491210938] 2018-03-12 21:21:00,735 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[5.8402328491210938] 2018-03-12 21:21:00,735 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[5.9887516498565674] 2018-03-12 21:21:00,883 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2552 in on_voice_state_update: Resumed voice connection to SEXY FARMERS/Civ 5
+[5.9892516136169434] 2018-03-12 21:21:00,884 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 235882065927733249/KILLER BOTSTAR#0148 on SEXY FARMERS/Civ 5 -> [RESUME, CONNECT]
+[5.9892516136169434] 2018-03-12 21:21:00,884 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.0892641544342041] 2018-03-12 21:21:00,984 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[6.4538097381591797] 2018-03-12 21:21:01,348 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[6.4543094635009766] 2018-03-12 21:21:01,349 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 463 in get_voice_client: Connected in 0.6s
+[6.4543094635009766] 2018-03-12 21:21:01,349 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 464 in get_voice_client: Connected to SEXY FARMERS/Civ 5
+[6.4553091526031494] 2018-03-12 21:21:01,350 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 805 in deserialize_queue: Deserializing queue for 109318015107002368
+[6.7338445186614990] 2018-03-12 21:21:01,628 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 555 in get_player: Created player via deserialization for server 109318015107002368 with 2 entries
+[6.7343440055847168] 2018-03-12 21:21:01,629 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 283 in _join_startup_channels: Joined SEXY FARMERS/Civ 5
+[6.7358446121215820] 2018-03-12 21:21:01,630 - VOICEDEBUG - musicbot.player | In player.py::MainThread(14084), line 311 in websocket_check: Starting websocket check loop for SEXY FARMERS
+[6.7363443374633789] 2018-03-12 21:21:01,631 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-NIWtbNgmjnY-Legends_Never_Die_ft._Against_The_Current_-_League_of_Legends_EAR_RAPE.m4a
+[6.9828758239746094] 2018-03-12 21:21:01,877 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 195 in _download: Download cached: https://www.youtube.com/watch?v=qqXi8WmQ_WM
+[6.9843757152557373] 2018-03-12 21:21:01,879 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[10.5183219909667969] 2018-03-12 21:21:05,413 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !skip
+[10.5398247241973877] 2018-03-12 21:21:05,434 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-qqXi8WmQ_WM-Show_Me_Your_Genitals.webm
+[10.8408617973327637] 2018-03-12 21:21:05,735 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[10.8488633632659912] 2018-03-12 21:21:05,743 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[99.1343598365783691] 2018-03-12 21:22:34,029 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play  show me your genitals 2
+[103.8574471473693848] 2018-03-12 21:22:38,752 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[103.8704488277435303] 2018-03-12 21:22:38,765 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=jvjDr8KKtsE
+[105.1831126213073730] 2018-03-12 21:22:40,077 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=jvjDr8KKtsE
+[164.3915140628814697] 2018-03-12 21:23:39,286 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play wtf collective 1 2 3
+[168.6775465011596680] 2018-03-12 21:23:43,572 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[181.7421774864196777] 2018-03-12 21:23:56,637 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-jvjDr8KKtsE-Show_Me_Your_Genitals_2_-_E=MC_Vagina.webm
+[181.9827075004577637] 2018-03-12 21:23:56,877 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[181.9957089424133301] 2018-03-12 21:23:56,890 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=Wto94-qWH1w
+[182.0017094612121582] 2018-03-12 21:23:56,896 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[184.6250360012054443] 2018-03-12 21:23:59,519 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=Wto94-qWH1w
+[192.0069539546966553] 2018-03-12 21:24:06,901 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [MUTE]
+[241.9056670665740967] 2018-03-12 21:24:56,800 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Civ 5 -> [MUTE, DEAFEN]
+[375.6973676681518555] 2018-03-12 21:27:10,592 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [UNMUTE]
+[413.9046463966369629] 2018-03-12 21:27:48,799 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Wto94-qWH1w-WTF_Collective_1_2_3.webm
+[414.1536781787872314] 2018-03-12 21:27:49,048 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[414.1611788272857666] 2018-03-12 21:27:49,056 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[547.3163318634033203] 2018-03-12 21:30:02,211 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Civ 5 -> [UNMUTE, UNDEAFEN]
+[605.9956717491149902] 2018-03-12 21:31:00,890 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Civ 5 -> [MUTE, DEAFEN]
+[819.1988329887390137] 2018-03-12 21:34:34,093 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play f**k everything Jon
+[823.4978687763214111] 2018-03-12 21:34:38,392 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[823.5083703994750977] 2018-03-12 21:34:38,403 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=ulIOrQasR18
+[825.0060575008392334] 2018-03-12 21:34:39,900 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=ulIOrQasR18
+[849.8066651821136475] 2018-03-12 21:35:04,701 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Civ 5 -> [UNMUTE, UNDEAFEN]
+[1074.8154134750366211] 2018-03-12 21:38:49,710 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 217331210794434562/PMAEnthusiast#2333 on SEXY FARMERS/Civ 5 -> [MUTE]
+[1311.6560823917388916] 2018-03-12 21:42:46,550 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ulIOrQasR18-F_k_Everything_Jon_Lajoie.webm
+[1311.9061136245727539] 2018-03-12 21:42:46,800 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1311.9141147136688232] 2018-03-12 21:42:46,808 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1387.2520196437835693] 2018-03-12 21:44:02,146 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Civ 5 -> [JOIN, MOVE, UNMUTE]
+[1387.2525198459625244] 2018-03-12 21:44:02,147 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has joined SEXY FARMERS/Civ 5
+[1389.3777842521667480] 2018-03-12 21:44:04,272 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Civ 5 -> [UNMUTE]
+[1441.8258194923400879] 2018-03-12 21:44:56,720 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Civ 5 -> [MUTE]
+[1494.5194008350372314] 2018-03-12 21:45:49,414 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play i kill people Jon
+[1498.1683695316314697] 2018-03-12 21:45:53,063 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1498.1808710098266602] 2018-03-12 21:45:53,075 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=xC03hmS1Brk
+[1501.0202248096466064] 2018-03-12 21:45:55,915 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=xC03hmS1Brk
+[1528.3076226711273193] 2018-03-12 21:46:23,202 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-xC03hmS1Brk-I_Kill_People.m4a
+[1528.5631542205810547] 2018-03-12 21:46:23,458 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1528.5726554393768311] 2018-03-12 21:46:23,467 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1543.0649602413177490] 2018-03-12 21:46:37,959 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Civ 5 -> [UNMUTE]
+[1828.6251449584960938] 2018-03-12 21:51:23,520 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1830.5768878459930420] 2018-03-12 21:51:25,471 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play everyday normal guy
+[1834.0713217258453369] 2018-03-12 21:51:28,966 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1834.0833253860473633] 2018-03-12 21:51:28,978 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=5PsnxDQvQpw
+[1835.4149992465972900] 2018-03-12 21:51:30,309 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=5PsnxDQvQpw
+[1836.0735805034637451] 2018-03-12 21:51:30,968 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-5PsnxDQvQpw-Everyday_Normal_Guy.webm
+[1836.3256120681762695] 2018-03-12 21:51:31,220 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[1859.3955063819885254] 2018-03-12 21:51:54,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [LEAVE, MOVE]
+[1862.4473860263824463] 2018-03-12 21:51:57,342 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 217331210794434562/PMAEnthusiast#2333 on SEXY FARMERS/Civ 5 -> [UNMUTE]
+[1868.9861977100372314] 2018-03-12 21:52:03,881 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Fortnite -> [LEAVE, MOVE]
+[1925.4692184925079346] 2018-03-12 21:53:00,364 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 217331210794434562/PMAEnthusiast#2333 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[1925.4692184925079346] 2018-03-12 21:53:00,364 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 217331210794434562/PMAEnthusiast#2333 has left SEXY FARMERS/Civ 5
+[2053.9471909999847412] 2018-03-12 21:55:08,842 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[2063.4347498416900635] 2018-03-12 21:55:18,329 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[2063.4352452754974365] 2018-03-12 21:55:18,330 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 108318089078140928/Pepper PhD#3926 has left SEXY FARMERS/Civ 5
+[2114.2785022258758545] 2018-03-12 21:56:09,173 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [MUTE]
+[2202.1561057567596436] 2018-03-12 21:57:37,050 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [UNMUTE]
+[2202.4683606624603271] 2018-03-12 21:57:37,363 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [MUTE]
+[2204.0965776443481445] 2018-03-12 21:57:38,991 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [UNMUTE]
+[2342.1205041408538818] 2018-03-12 21:59:57,015 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 122321203254788097/Blaze#1814 on SEXY FARMERS/Civ 5 -> [JOIN, CONNECT]
+[2342.1210048198699951] 2018-03-12 21:59:57,015 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 122321203254788097/Blaze#1814 has joined SEXY FARMERS/Civ 5
+[2363.5517370700836182] 2018-03-12 22:00:18,446 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 122321203254788097/Blaze#1814 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[2363.5517370700836182] 2018-03-12 22:00:18,446 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 122321203254788097/Blaze#1814 has left SEXY FARMERS/Civ 5
+[2380.5209391117095947] 2018-03-12 22:00:35,415 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 122321203254788097/Blaze#1814 on SEXY FARMERS/Civ 5 -> [JOIN, CONNECT]
+[2380.5214331150054932] 2018-03-12 22:00:35,416 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 122321203254788097/Blaze#1814 has joined SEXY FARMERS/Civ 5
+[2387.1653115749359131] 2018-03-12 22:00:42,060 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 122321203254788097/Blaze#1814 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[2387.1658120155334473] 2018-03-12 22:00:42,060 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 122321203254788097/Blaze#1814 has left SEXY FARMERS/Civ 5
+[2456.2105598449707031] 2018-03-12 22:01:51,105 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2555 in on_voice_state_update: Empty voice state update, likely a session id change
+[2474.8735170364379883] 2018-03-12 22:02:09,768 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/Fortnite -> [CONNECT]
+[2477.8990099430084229] 2018-03-12 22:02:12,793 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2555 in on_voice_state_update: Empty voice state update, likely a session id change
+[2600.4438171386718750] 2018-03-12 22:04:15,338 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2555 in on_voice_state_update: Empty voice state update, likely a session id change
+[2606.6735944747924805] 2018-03-12 22:04:21,568 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[2606.6740944385528564] 2018-03-12 22:04:21,568 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has left SEXY FARMERS/Civ 5
+[2612.3052966594696045] 2018-03-12 22:04:27,200 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Civ 5 -> [JOIN, CONNECT]
+[2612.3052966594696045] 2018-03-12 22:04:27,200 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Civ 5
+[2796.6501305103302002] 2018-03-12 22:07:31,544 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97066188072304640/amictus#6514 on SEXY FARMERS/Civ 5 -> [JOIN, CONNECT]
+[2796.6506304740905762] 2018-03-12 22:07:31,545 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 97066188072304640/amictus#6514 has joined SEXY FARMERS/Civ 5
+[2981.8221044540405273] 2018-03-12 22:10:36,716 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97066188072304640/amictus#6514: !play logic 1-8000
+[2987.2928738594055176] 2018-03-12 22:10:42,187 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[2987.3043744564056396] 2018-03-12 22:10:42,199 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=Kb24RrHIbFk
+[2989.3416292667388916] 2018-03-12 22:10:44,236 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=Kb24RrHIbFk
+[2989.3466298580169678] 2018-03-12 22:10:44,241 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Kb24RrHIbFk-Logic_-_1-800-273-8255_ft._Alessia_Cara_Khalid.webm
+[2989.5676572322845459] 2018-03-12 22:10:44,462 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[3239.2964673042297363] 2018-03-12 22:14:54,191 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Civ 5 -> [JOIN, MOVE]
+[3239.2964673042297363] 2018-03-12 22:14:54,191 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has joined SEXY FARMERS/Civ 5
+[3250.4193575382232666] 2018-03-12 22:15:05,314 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [LEAVE, MOVE]
+[3257.1152782440185547] 2018-03-12 22:15:12,010 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Fortnite -> [DISCONNECT]
+[3264.3905308246612549] 2018-03-12 22:15:19,285 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Fortnite -> [DISCONNECT]
+[3372.7589666843414307] 2018-03-12 22:17:07,653 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/Fortnite -> [DISCONNECT]
+[3409.4295616149902344] 2018-03-12 22:17:44,324 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[4912.3997795581817627] 2018-03-12 22:42:47,294 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 158645554769821696/eryk778#8051 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[4912.4002797603607178] 2018-03-12 22:42:47,295 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 158645554769821696/eryk778#8051 has left SEXY FARMERS/Civ 5
+[4950.4954726696014404] 2018-03-12 22:43:25,390 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [MUTE]
+[4953.7972817420959473] 2018-03-12 22:43:28,692 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [UNMUTE]
+[4978.1575388908386230] 2018-03-12 22:43:53,052 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97054498131808256/Kai#1467: !play lieky lieky likey
+[4982.2865712642669678] 2018-03-12 22:43:57,181 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[4982.2960729598999023] 2018-03-12 22:43:57,190 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 195 in _download: Download cached: https://www.youtube.com/watch?v=V2hlQkVJZhE
+[4984.2888257503509521] 2018-03-12 22:43:59,183 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-V2hlQkVJZhE-TWICE_LIKEY_M_V.webm
+[4984.4723916053771973] 2018-03-12 22:43:59,367 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5031.1213512420654297] 2018-03-12 22:44:46,016 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [MUTE]
+[5031.8939483165740967] 2018-03-12 22:44:46,788 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [UNMUTE]
+[5176.9434704780578613] 2018-03-12 22:47:11,838 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97066188072304640/amictus#6514: !play mans got cock
+[5180.6995499134063721] 2018-03-12 22:47:15,594 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5180.7080497741699219] 2018-03-12 22:47:15,602 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 195 in _download: Download cached: https://www.youtube.com/watch?v=q-GtUCO9bog
+[5181.3682782649993896] 2018-03-12 22:47:16,263 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97066188072304640/amictus#6514: !skip
+[5181.3737776279449463] 2018-03-12 22:47:16,268 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-q-GtUCO9bog-Big_Shaq_-_Mans_Got_C_k_MANS_NOT_HOT_PARODY_SkiddyCumCumCum_NEW_IG_-_@Kusorare.webm
+[5181.5693023204803467] 2018-03-12 22:47:16,464 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5181.5753021240234375] 2018-03-12 22:47:16,470 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5313.0345654487609863] 2018-03-12 22:49:27,929 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play Cummo
+[5316.0880856513977051] 2018-03-12 22:49:30,982 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5316.0975871086120605] 2018-03-12 22:49:30,992 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 195 in _download: Download cached: https://www.youtube.com/watch?v=aoQAEyFOvC0
+[5321.2152726650238037] 2018-03-12 22:49:36,110 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97054498131808256/Kai#1467: !skip
+[5321.2312746047973633] 2018-03-12 22:49:36,126 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-aoQAEyFOvC0-6IX9INE_-_CUMMO_PARODY_OF_GUMMO_IFSHE13IM13.webm
+[5321.4623041152954102] 2018-03-12 22:49:36,357 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5321.4708054065704346] 2018-03-12 22:49:36,365 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5476.8635022640228271] 2018-03-12 22:52:11,758 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5570.2517206668853760] 2018-03-12 22:53:45,146 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play Boomin
+[5575.1391673088073730] 2018-03-12 22:53:50,034 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5575.1521692276000977] 2018-03-12 22:53:50,047 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 195 in _download: Download cached: https://www.youtube.com/watch?v=sD67Nd59q14
+[5577.1414179801940918] 2018-03-12 22:53:52,036 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-sD67Nd59q14-Yung_Gravy_bbno_-_BOOMIN_Official_Music_Video.webm
+[5577.3769545555114746] 2018-03-12 22:53:52,271 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[5712.2386136054992676] 2018-03-12 22:56:07,133 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[6791.9967224597930908] 2018-03-12 23:14:06,891 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play no diggity
+[6799.6482889652252197] 2018-03-12 23:14:14,543 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[6799.6582896709442139] 2018-03-12 23:14:14,553 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=3KL9mRus19o
+[6802.0966880321502686] 2018-03-12 23:14:16,991 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=3KL9mRus19o
+[6802.1011884212493896] 2018-03-12 23:14:16,996 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-3KL9mRus19o-Blackstreet_-_No_Diggity_ft._Dr._Dre_Queen_Pen.webm
+[6802.3317165374755859] 2018-03-12 23:14:17,226 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[6907.0384695529937744] 2018-03-12 23:16:01,933 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play Ganstas Paradise
+[6911.8642995357513428] 2018-03-12 23:16:06,759 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[6911.8748006820678711] 2018-03-12 23:16:06,769 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=fPO76Jlnz6c
+[6913.9370555877685547] 2018-03-12 23:16:08,831 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=fPO76Jlnz6c
+[7074.3525364398956299] 2018-03-12 23:18:49,247 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fPO76Jlnz6c-Coolio_-_Gangsta_s_Paradise_feat._L.V._Music_Video.webm
+[7074.5645630359649658] 2018-03-12 23:18:49,459 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7074.5720636844635010] 2018-03-12 23:18:49,466 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7110.3510847091674805] 2018-03-12 23:19:25,245 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play bonkers
+[7114.9064316749572754] 2018-03-12 23:19:29,801 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7114.9159331321716309] 2018-03-12 23:19:29,810 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=ISy0Hl0SBfg
+[7116.2768948078155518] 2018-03-12 23:19:31,171 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=ISy0Hl0SBfg
+[7330.7055916786193848] 2018-03-12 23:23:05,600 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ISy0Hl0SBfg-Dizzee_Rascal_-_Bonkers.webm
+[7330.9241180419921875] 2018-03-12 23:23:05,818 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7330.9316184520721436] 2018-03-12 23:23:05,826 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7507.7252876758575439] 2018-03-12 23:26:02,620 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7530.8382220268249512] 2018-03-12 23:26:25,733 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play American Boy
+[7534.4396450519561768] 2018-03-12 23:26:29,334 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7534.4511461257934570] 2018-03-12 23:26:29,346 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 195 in _download: Download cached: https://www.youtube.com/watch?v=Ic5vxw3eijY
+[7536.4358921051025391] 2018-03-12 23:26:31,330 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Ic5vxw3eijY-Estelle_-_American_Boy_Feat._Kanye_West_Video.webm
+[7536.6554188728332520] 2018-03-12 23:26:31,550 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7687.6385538578033447] 2018-03-12 23:29:02,533 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play Power Kanye
+[7692.6633930206298828] 2018-03-12 23:29:07,558 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7692.6748940944671631] 2018-03-12 23:29:07,569 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=L53gjP-TtGE
+[7694.6292140483856201] 2018-03-12 23:29:09,524 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=L53gjP-TtGE
+[7778.5171980857849121] 2018-03-12 23:30:33,412 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-L53gjP-TtGE-Kanye_West_-_POWER.webm
+[7778.7277240753173828] 2018-03-12 23:30:33,622 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7778.7362248897552490] 2018-03-12 23:30:33,631 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7881.0695803165435791] 2018-03-12 23:32:15,964 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7974.5766713619232178] 2018-03-12 23:33:49,471 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2395 in on_message: 97053585245745152/Mat#2971: !play Stronger
+[7978.4281105995178223] 2018-03-12 23:33:53,322 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 187650472591491072/Kacper#6169 on SEXY FARMERS/Civ 5 -> [JOIN, CONNECT]
+[7978.4286105632781982] 2018-03-12 23:33:53,323 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 187650472591491072/Kacper#6169 has joined SEXY FARMERS/Civ 5
+[7979.2137069702148438] 2018-03-12 23:33:54,108 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[7979.2282145023345947] 2018-03-12 23:33:54,123 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=PsO6ZnUZI0g
+[7981.0947303771972656] 2018-03-12 23:33:55,989 - INFO - musicbot.entry | In entry.py::MainThread(14084), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=PsO6ZnUZI0g
+[7981.2077453136444092] 2018-03-12 23:33:56,102 - FFMPEG - musicbot.player | In player.py::MainThread(14084), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-PsO6ZnUZI0g-Kanye_West_-_Stronger.webm
+[7981.4277715682983398] 2018-03-12 23:33:56,322 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[8247.6691188812255859] 2018-03-12 23:38:22,563 - DEBUG - musicbot.bot | In bot.py::MainThread(14084), line 781 in serialize_queue: Serializing queue for 109318015107002368
+[9141.7552738189697266] 2018-03-12 23:53:16,650 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97066188072304640/amictus#6514 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[9141.7557737827301025] 2018-03-12 23:53:16,650 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 97066188072304640/amictus#6514 has left SEXY FARMERS/Civ 5
+[11025.2923727035522461] 2018-03-13 00:24:40,187 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 187650472591491072/Kacper#6169 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[11025.2928721904754639] 2018-03-13 00:24:40,187 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 187650472591491072/Kacper#6169 has left SEXY FARMERS/Civ 5
+[11186.5093717575073242] 2018-03-13 00:27:21,404 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[11186.5098719596862793] 2018-03-13 00:27:21,404 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has left SEXY FARMERS/Civ 5
+[11189.0589146614074707] 2018-03-13 00:27:23,953 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14084), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Civ 5 -> [LEAVE, DISCONNECT]
+[11189.0594148635864258] 2018-03-13 00:27:23,954 - INFO - musicbot.bot | In bot.py::MainThread(14084), line 2575 in on_voice_state_update: 97053585245745152/Mat#2971 has left SEXY FARMERS/Civ 5

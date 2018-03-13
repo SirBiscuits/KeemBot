@@ -1,0 +1,151 @@
+[159.258842468] 2018-03-13 17:42:33,915 - INFO - launcher: Starting sanity checks
+[159.758567810] 2018-03-13 17:42:33,915 - INFO - launcher: Checking for Python 3.5+
+[160.258293152] 2018-03-13 17:42:33,916 - INFO - launcher: Checking console encoding
+[160.258293152] 2018-03-13 17:42:33,916 - INFO - launcher: Setting console encoding to UTF-8
+[160.758733749] 2018-03-13 17:42:33,916 - INFO - launcher: Ensuring we're in the right environment
+[162.258863449] 2018-03-13 17:42:33,918 - INFO - launcher: Adding local bins/ folder to path
+[162.758827209] 2018-03-13 17:42:33,918 - INFO - launcher: Required checks passed.
+[163.258790970] 2018-03-13 17:42:33,919 - INFO - launcher: Optional checks passed.
+[163.758993149] 2018-03-13 17:42:33,919 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[8.7179009914398193] 2018-03-13 17:42:42,473 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 213 in _setup_logging: Set logging level to INFO
+[8.7179009914398193] 2018-03-13 17:42:42,473 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 80 in __init__: =========== MusicBot (version 1.9.6_2) ===========
+[8.7189013957977295] 2018-03-13 17:42:42,474 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[8.720401525] launcher-INFO: Connecting
+[11.5869522094726562] 2018-03-13 17:42:45,343 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 1011 in on_ready: Connection established, ready to go.
+[11.5874407291412354] 2018-03-13 17:42:45,343 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 324 in _cache_app_info: Caching app info
+[11.7121601104736328] 2018-03-13 17:42:45,468 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[11.7176601886749268] 2018-03-13 17:42:45,473 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 844 in _scheck_server_permissions: Checking server permissions
+[11.7176601886749268] 2018-03-13 17:42:45,473 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[11.7181599140167236] 2018-03-13 17:42:45,474 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 852 in _scheck_configs: Validating config
+[11.7181599140167236] 2018-03-13 17:42:45,474 - DEBUG - musicbot.config | In config.py::MainThread(7744), line 155 in async_validate: Validating options...
+[11.7181599140167236] 2018-03-13 17:42:45,474 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 855 in _scheck_configs: Validating permissions config
+[11.7181599140167236] 2018-03-13 17:42:45,474 - DEBUG - musicbot.permissions | In permissions.py::MainThread(7744), line 59 in async_validate: Validating permissions...
+[11.7186603546142578] 2018-03-13 17:42:45,474 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1022 in on_ready: Connected to Discord!
+[11.7191603183746338] 2018-03-13 17:42:45,475 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1032 in on_ready: Bot:   235882065927733249/KILLER BOTSTAR#0148 [BOT]
+[11.7191603183746338] 2018-03-13 17:42:45,475 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1040 in on_ready: Owner: 97053585245745152/Mat#2971
+
+[11.7196602821350098] 2018-03-13 17:42:45,475 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1043 in on_ready: Server List:
+[11.7201602458953857] 2018-03-13 17:42:45,476 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1044 in <listcomp>:  - SEXY FARMERS
+[11.7201602458953857] 2018-03-13 17:42:45,476 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1075 in on_ready: Bound to text channels:
+[11.7206604480743408] 2018-03-13 17:42:45,476 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1076 in <listcomp>:  - SEXY FARMERS/bot-spam
+[11.7211604118347168] 2018-03-13 17:42:45,477 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1114 in on_ready: Not autojoining any voice channels
+[11.7216606140136719] 2018-03-13 17:42:45,477 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1118 in on_ready: Options:
+[11.7221608161926270] 2018-03-13 17:42:45,478 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1120 in on_ready:   Command prefix: !
+[11.7226612567901611] 2018-03-13 17:42:45,478 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1121 in on_ready:   Default volume: 100%
+[11.7231609821319580] 2018-03-13 17:42:45,479 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1123 in on_ready:   Skip threshold: 5 votes or 100%
+[11.7236607074737549] 2018-03-13 17:42:45,479 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1124 in on_ready:   Now Playing @mentions: Enabled
+[11.7241616249084473] 2018-03-13 17:42:45,480 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1125 in on_ready:   Auto-Summon: Enabled
+[11.7246623039245605] 2018-03-13 17:42:45,480 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1126 in on_ready:   Auto-Playlist: Disabled
+[11.7246623039245605] 2018-03-13 17:42:45,480 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1127 in on_ready:   Auto-Pause: Enabled
+[11.7251622676849365] 2018-03-13 17:42:45,481 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1128 in on_ready:   Delete Messages: Enabled
+[11.7261621952056885] 2018-03-13 17:42:45,482 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1130 in on_ready:     Delete Invoking: Disabled
+[11.7266612052917480] 2018-03-13 17:42:45,482 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1131 in on_ready:   Debug Mode: Disabled
+[11.7271609306335449] 2018-03-13 17:42:45,483 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 1132 in on_ready:   Downloaded songs will be saved
+[11.7281620502471924] 2018-03-13 17:42:45,484 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 258 in _join_startup_channels: Found owner in "Chill out zone"
+[11.7286612987518311] 2018-03-13 17:42:45,484 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 267 in _join_startup_channels: Attempting to join SEXY FARMERS/Chill out zone
+[11.7291612625122070] 2018-03-13 17:42:45,485 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 437 in get_voice_client: Connection attempt 1 to Chill out zone
+[11.7291612625122070] 2018-03-13 17:42:45,485 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[11.7296621799468994] 2018-03-13 17:42:45,485 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[11.7296621799468994] 2018-03-13 17:42:45,485 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[11.8611783981323242] 2018-03-13 17:42:45,617 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 235882065927733249/KILLER BOTSTAR#0148 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[11.8616783618927002] 2018-03-13 17:42:45,617 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 235882065927733249/KILLER BOTSTAR#0148 has joined SEXY FARMERS/Chill out zone
+[11.8626782894134521] 2018-03-13 17:42:45,618 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[11.9541897773742676] 2018-03-13 17:42:45,710 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[12.2775077819824219] 2018-03-13 17:42:46,033 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[12.2775077819824219] 2018-03-13 17:42:46,033 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 463 in get_voice_client: Connected in 0.5s
+[12.2780063152313232] 2018-03-13 17:42:46,034 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 464 in get_voice_client: Connected to SEXY FARMERS/Chill out zone
+[12.2785065174102783] 2018-03-13 17:42:46,034 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 805 in deserialize_queue: Deserializing queue for 109318015107002368
+[12.5930454730987549] 2018-03-13 17:42:46,349 - DEBUG - musicbot.bot | In bot.py::MainThread(7744), line 555 in get_player: Created player via deserialization for server 109318015107002368 with 0 entries
+[12.5935463905334473] 2018-03-13 17:42:46,349 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 283 in _join_startup_channels: Joined SEXY FARMERS/Chill out zone
+[12.5940461158752441] 2018-03-13 17:42:46,350 - VOICEDEBUG - musicbot.player | In player.py::MainThread(7744), line 311 in websocket_check: Starting websocket check loop for SEXY FARMERS
+[15.3136675357818604] 2018-03-13 17:42:49,069 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[15.3136675357818604] 2018-03-13 17:42:49,069 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Chill out zone
+[18.4124727249145508] 2018-03-13 17:42:52,168 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[18.4129729270935059] 2018-03-13 17:42:52,169 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has left SEXY FARMERS/Chill out zone
+[35.6023092269897461] 2018-03-13 17:43:09,358 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[35.6023092269897461] 2018-03-13 17:43:09,358 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Chill out zone
+[53.8987076282501221] 2018-03-13 17:43:27,654 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97066188072304640/amictus#6514 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[53.8987076282501221] 2018-03-13 17:43:27,654 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97066188072304640/amictus#6514 has left SEXY FARMERS/Chill out zone
+[56.7450654506683350] 2018-03-13 17:43:30,501 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/League OF Legends -> [LEAVE, MOVE]
+[59.2750115394592285] 2018-03-13 17:43:33,031 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/League OF Legends -> [LEAVE, MOVE]
+[63.4516861438751221] 2018-03-13 17:43:37,207 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[63.4516861438751221] 2018-03-13 17:43:37,207 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 108318089078140928/Pepper PhD#3926 has joined SEXY FARMERS/Chill out zone
+[64.7863538265228271] 2018-03-13 17:43:38,542 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[64.7863538265228271] 2018-03-13 17:43:38,542 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Chill out zone
+[86.7057445049285889] 2018-03-13 17:44:00,461 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[86.7057445049285889] 2018-03-13 17:44:00,461 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has left SEXY FARMERS/Chill out zone
+[90.1886794567108154] 2018-03-13 17:44:03,944 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[90.1886794567108154] 2018-03-13 17:44:03,944 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Chill out zone
+[94.3515088558197021] 2018-03-13 17:44:08,107 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [DEAFEN]
+[95.1361827850341797] 2018-03-13 17:44:08,892 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [UNDEAFEN]
+[110.3870055675506592] 2018-03-13 17:44:24,143 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Chill out zone -> [MUTE, DEAFEN]
+[117.3304588794708252] 2018-03-13 17:44:31,086 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[117.3304588794708252] 2018-03-13 17:44:31,086 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has left SEXY FARMERS/Chill out zone
+[120.9661827087402344] 2018-03-13 17:44:34,722 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Civ 5 -> [LEAVE, MOVE]
+[121.9771344661712646] 2018-03-13 17:44:35,733 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/PUBG -> [MOVE]
+[123.7975616455078125] 2018-03-13 17:44:37,553 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/World Of Warcraft -> [MOVE]
+[125.4028711318969727] 2018-03-13 17:44:39,158 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/World Of Warcraft -> [UNMUTE, UNDEAFEN]
+[137.7066738605499268] 2018-03-13 17:44:51,462 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97066188072304640/amictus#6514 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[137.7071743011474609] 2018-03-13 17:44:51,463 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97066188072304640/amictus#6514 has joined SEXY FARMERS/Chill out zone
+[140.3518009185791016] 2018-03-13 17:44:54,107 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97066188072304640/amictus#6514 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[140.3523008823394775] 2018-03-13 17:44:54,108 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97066188072304640/amictus#6514 has left SEXY FARMERS/Chill out zone
+[156.7640337944030762] 2018-03-13 17:45:10,520 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/non-retard-zone -> [MOVE]
+[181.7688822746276855] 2018-03-13 17:45:35,524 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/non-retard-zone -> [DISCONNECT]
+[249.3604402542114258] 2018-03-13 17:46:43,116 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [UNMUTE]
+[296.5189816951751709] 2018-03-13 17:47:30,275 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/World Of Warcraft -> [CONNECT]
+[326.7908768653869629] 2018-03-13 17:48:00,546 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/non retard zone -> [MOVE]
+[334.5224828720092773] 2018-03-13 17:48:08,278 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[334.5224828720092773] 2018-03-13 17:48:08,278 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Chill out zone
+[448.3000173568725586] 2018-03-13 17:50:02,056 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/non retard zone -> [DISCONNECT]
+[451.3143184185028076] 2018-03-13 17:50:05,070 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 246343362288812032/J4WW#1057 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[451.3148186206817627] 2018-03-13 17:50:05,070 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 246343362288812032/J4WW#1057 has joined SEXY FARMERS/Chill out zone
+[588.0732169151306152] 2018-03-13 17:52:21,829 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[588.0737159252166748] 2018-03-13 17:52:21,829 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has left SEXY FARMERS/Chill out zone
+[611.0834548473358154] 2018-03-13 17:52:44,839 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/Civ 5 -> [LEAVE, MOVE]
+[611.9458885192871094] 2018-03-13 17:52:45,701 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Civ 5 -> [LEAVE, MOVE]
+[614.4676077365875244] 2018-03-13 17:52:48,223 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2555 in on_voice_state_update: Empty voice state update, likely a session id change
+[618.0046148300170898] 2018-03-13 17:52:51,760 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[618.0046148300170898] 2018-03-13 17:52:51,760 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 108318089078140928/Pepper PhD#3926 has joined SEXY FARMERS/Chill out zone
+[622.4468598365783691] 2018-03-13 17:52:56,202 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[622.4473605155944824] 2018-03-13 17:52:56,203 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has joined SEXY FARMERS/Chill out zone
+[624.3499729633331299] 2018-03-13 17:52:58,106 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2555 in on_voice_state_update: Empty voice state update, likely a session id change
+[626.1809117794036865] 2018-03-13 17:52:59,936 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/League OF Legends -> [LEAVE, MOVE]
+[627.3387222290039062] 2018-03-13 17:53:01,094 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[627.3392214775085449] 2018-03-13 17:53:01,095 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 184405311681986560/FredBoat♪♪#7284 has joined SEXY FARMERS/Chill out zone
+[628.9839327335357666] 2018-03-13 17:53:02,740 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/League OF Legends - Ranked -> [LEAVE, MOVE]
+[630.0311901569366455] 2018-03-13 17:53:03,787 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[630.0311901569366455] 2018-03-13 17:53:03,787 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 184405311681986560/FredBoat♪♪#7284 has joined SEXY FARMERS/Chill out zone
+[631.7435057163238525] 2018-03-13 17:53:05,499 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/League OF Legends -> [LEAVE, MOVE]
+[632.7799658775329590] 2018-03-13 17:53:06,536 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/Chill out zone -> [JOIN, MOVE]
+[632.7804658412933350] 2018-03-13 17:53:06,536 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 184405311681986560/FredBoat♪♪#7284 has joined SEXY FARMERS/Chill out zone
+[637.6574742794036865] 2018-03-13 17:53:11,413 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[637.6574742794036865] 2018-03-13 17:53:11,413 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has joined SEXY FARMERS/Chill out zone
+[678.8472912311553955] 2018-03-13 17:53:52,603 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[678.8472912311553955] 2018-03-13 17:53:52,603 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has left SEXY FARMERS/Chill out zone
+[679.2917449474334717] 2018-03-13 17:53:53,047 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/Chill out zone -> [MUTE]
+[916.4188637733459473] 2018-03-13 17:57:50,174 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 123473360830070785/Rafioli#9576 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[916.4193642139434814] 2018-03-13 17:57:50,175 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 123473360830070785/Rafioli#9576 has joined SEXY FARMERS/Chill out zone
+[1276.0232071876525879] 2018-03-13 18:03:49,779 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[1276.0237052440643311] 2018-03-13 18:03:49,779 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has joined SEXY FARMERS/Chill out zone
+[1289.7048029899597168] 2018-03-13 18:04:03,460 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/AFK -> [LEAVE, MOVE, MUTE]
+[1326.5601506233215332] 2018-03-13 18:04:40,316 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[1326.5601506233215332] 2018-03-13 18:04:40,316 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has left SEXY FARMERS/Chill out zone
+[1350.1032152175903320] 2018-03-13 18:05:03,859 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[1350.1032152175903320] 2018-03-13 18:05:03,859 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has joined SEXY FARMERS/Chill out zone
+[1380.8864626884460449] 2018-03-13 18:05:34,642 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[1380.8869631290435791] 2018-03-13 18:05:34,643 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has left SEXY FARMERS/Chill out zone
+[1449.3859415054321289] 2018-03-13 18:06:43,142 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97054498131808256/Kai#1467 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[1449.3864414691925049] 2018-03-13 18:06:43,142 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 97054498131808256/Kai#1467 has left SEXY FARMERS/Chill out zone
+[1485.0082547664642334] 2018-03-13 18:07:18,764 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 123473360830070785/Rafioli#9576 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[1485.0087547302246094] 2018-03-13 18:07:18,764 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 123473360830070785/Rafioli#9576 has left SEXY FARMERS/Chill out zone
+[2673.6769328117370605] 2018-03-13 18:27:07,433 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[2673.6774318218231201] 2018-03-13 18:27:07,433 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 184405311681986560/FredBoat♪♪#7284 has left SEXY FARMERS/Chill out zone
+[5159.0718894004821777] 2018-03-13 19:08:32,827 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/Chill out zone -> [MUTE, DEAFEN]
+[5710.8974542617797852] 2018-03-13 19:17:44,653 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 108318089078140928/Pepper PhD#3926 on SEXY FARMERS/Chill out zone -> [LEAVE, DISCONNECT]
+[5710.8979671001434326] 2018-03-13 19:17:44,654 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 108318089078140928/Pepper PhD#3926 has left SEXY FARMERS/Chill out zone
+[6961.1141839027404785] 2018-03-13 19:38:34,870 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 97053585245745152/Mat#2971 on SEXY FARMERS/AFK -> [DISCONNECT]
+[9385.9836802482604980] 2018-03-13 20:18:59,739 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(7744), line 2564 in on_voice_state_update: Voice state update for 257529044365475840/doyley06#9400 on SEXY FARMERS/Chill out zone -> [JOIN, CONNECT]
+[9385.9836802482604980] 2018-03-13 20:18:59,739 - INFO - musicbot.bot | In bot.py::MainThread(7744), line 2575 in on_voice_state_update: 257529044365475840/doyley06#9400 has joined SEXY FARMERS/Chill out zone
